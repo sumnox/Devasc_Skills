@@ -5,10 +5,22 @@ GitHub
 Manage GitHub scripts and documents
 
 # Task implementation
+- created a remote repository
+- created a local repository with `git init`
+- added a README.md
+- Staged and committed the repository
+	`git add .`
+	`git commit -m initial commit`
+- connected to remote repository
+	`git remote add origin <url>`
+	`git push -u origin master`
 
 # Task troubleshooting
+Initially I had some trouble in setting up the correct repository. I made some mistakes. 
+After learning what I did wrong, I deleted the repository and started over.
 
 # Task verification
+![git-proof](/assets/git-proof.png)
 
 ---
 # Task name
