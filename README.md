@@ -20,7 +20,7 @@ Initially I had some trouble in setting up the correct repository. I made some m
 After learning what I did wrong, I deleted the repository and started over.
 
 # Task verification
-![git-proof](/assets/git-proof.png)
+![git-proof](/assets/task_1/git-proof.png)
 
 ---
 # Task name
@@ -82,10 +82,18 @@ Webex Teams API
 Execute Webex Teams API calls using a Python script
 
 # Task implementation
+I took the existing scripts and modified them to hide the token. I also hid this from the commits through gitignore.
+For the future I would expand the script to take user input and automatically list out the roomIDs. 
+Due to the requirement to send screenshots, I created a new script to send screenshots to webex.
 
 # Task troubleshooting
+Initially I had trouble getting the roomId, after deleting and readding the room I copied the value. This would be something to further automate using the API docs as guidance.
 
 # Task verification
+![create-membership-proof](/assets/task_6/create-membership-proof.png)
+![create-room-proof](/assets/task_6/create-room-proof.png)
+![send-message-proof](/assets/task_6/send-message-proof.png)
+![send-file-proof](/assets/task_6/send-file-proof.png)
 
 ---
 # Task name
