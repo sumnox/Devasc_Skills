@@ -103,9 +103,10 @@ Bash
 Translate the given Python script into an equivalent bash script. 
 
 # Task implementation
-
+The first thing I did was translate all the text to bash and change the syntax around. I got pretty far using curl for the GET request.
+Getting the JSON to parse correctly was a huge challenge and took me several hours to troubleshoot.
 # Task troubleshooting
-
+To verify the requests I used Postman and copied the script. For some reason I kept running into issues in my bash script, mainly due to variable unpacking.  
 # Task verification
 
 ---
@@ -116,8 +117,10 @@ Filtering DNAC Response Data
 Adapt the Python code in the script on the next page in order to obtain a working application that is able to provide the output shown in the output example OUTPUT TASK 10
 
 # Task implementation
+First I filled in the blanks I could gather from the code, the ones that I couldn't figure out from memory I looked up in Google. After filling out most of the code I ran it to try and figure out the final part. For the final part I printed out the keys of the dictionary in the list, from this it was easy enough to figure out what belonged where.
 
 # Task troubleshooting
+At first I got a large error about JSON parsing, I quickly discovered I was nog getting any output on my token request. The next thing I ran into, was that I got a 404 on the token request. Reading the docs I saw that I had to perform a POST request.
 
 # Task verification
-
+![dnac-proof](/assets/task_10/dnac-proof.png)

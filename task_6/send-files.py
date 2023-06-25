@@ -1,9 +1,9 @@
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-file_name = "git-proof.png"
-path_to_file = "/home/devasc/Devasc_Skills/assets/task_1/"
-text = "Task 1 screenshot"
+file_name = "dnac-proof.png"
+path_to_file = "/home/devasc/Devasc_Skills/assets/task_10/"
+text = "Task 10 screenshot"
 room_id = "Y2lzY29zcGFyazovL3VybjpURUFNOmV1LWNlbnRyYWwtMV9rL1JPT00vMDA1YjY5YjAtMTEyZi0xMWVlLWIzMDgtZGY2OGU0YTNmNzE2"
 
 def get_token():
