@@ -1,0 +1,24 @@
+---
+- name: Run show version on remote devices
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+
+  tasks: 
+    - name: DISPLAYING SHOW VERSION
+      ios_command:
+        commands:
+          - show version
+      register: version
+
+    - debug: var=version.stdout_lines
+
+    - name: Gather L3 interfaces resource and minimal legacy facts
+      ios_facts:
+        gather_subset: min
+        gather_network_resources: l3_interfaces
+
+    - name: Configure buffer size
+      ios_logging:
+        dest: buffered
+        size: 5000

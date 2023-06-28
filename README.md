@@ -30,11 +30,12 @@ Ansible
 Manage Ansible scripts
 
 # Task implementation
-
+The first and last task were easy enough with the documentation, I got completely stuck on the second task because I was under the impression I had to line it up with the first "name". After I sorted that issue,, I googled how to print the output, this was also easy enough.
 # Task troubleshooting
-
+This took much longer than it should have, I was completely stuck on the second task, when someone pointed out the indentation error... 
 # Task verification
-
+![ansible-proof-1](/assets/task_2/ansible-proof-1.png)
+![ansible-proof-2](/assets/task_2/ansible-proof-2.png)
 ---
 # Task name
 Docker
