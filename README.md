@@ -70,10 +70,15 @@ Rest API & RESTCONF
 Create a Python script based on curl command examples
 
 # Task implementation
+This task was relatively easy, I feel confident in Python. I performed all the curl requests to make sure I could get the correct output, after that I started building a generic function to perform a request. Seeing that most of the requests shared a lot of information I created a menu to interact and perform different requests with the supplied information. This code is easily expanded on, taking more user input for different payloads, credentials, urls etc.
 
 # Task troubleshooting
+Only ran into some slight issues in formatting the JSON data, this took some time but was easily solved.
 
 # Task verification
+![task_5-proof-1](task_5-proof-1.png)
+![task_5-proof-1](task_5-proof-2.png)
+![task_5-proof-1](task_5-proof-3.png)
 
 ---
 # Task name

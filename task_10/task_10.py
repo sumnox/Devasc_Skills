@@ -2,9 +2,6 @@ import requests
 import datetime
 import json
 requests.packages.urllib3.disable_warnings()
-# TODO
-# Replace credentials
-
 
 DNAC_scheme = 'https://'
 DNAC_authority='sandboxdnac.cisco.com'
