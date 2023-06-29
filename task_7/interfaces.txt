@@ -1,0 +1,24 @@
+{
+  "ietf-interfaces:interfaces": {
+    "interface": [
+      {
+        "name": "GigabitEthernet1",
+        "description": "IPv6 ADDRESS FROM ANSIBLE",
+        "type": "iana-if-type:ethernetCsmacd",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+        }
+{
+  "errors": {
+    "error": [
+      {
+        "error-message": "Bad return value",
+        "error-path": "/ietf-interfaces:interfaces/interface=GigabitEthernet1/ietf-ip:ipv6/address",
+        "error-tag": "operation-failed",
+        "error-type": "application"
+      }
+    ]
+  }
+}
+
+}

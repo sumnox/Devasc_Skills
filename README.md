@@ -105,10 +105,11 @@ Translate the given Python script into an equivalent bash script.
 
 # Task implementation
 The first thing I did was translate all the text to bash and change the syntax around. I got pretty far using curl for the GET request.
-Getting the JSON to parse correctly was a huge challenge and took me several hours to troubleshoot.
+Getting the JSON to parse correctly was a huge challenge and took me several hours to troubleshoot, see troubleshooting for further information. After finally getting the code to work, I sought out how to output the response code and the output of the GET request in different variables. After getting the right output I added the flow control to check that the statuscode is between 200 and 300.
 # Task troubleshooting
-To verify the requests I used Postman and copied the script. For some reason I kept running into issues in my bash script, mainly due to variable unpacking.  
+To verify the requests I used Postman and copied the script. For some reason I kept running into issues in my bash script, mainly due to variable unpacking. copying the Postman script verbatim seemed to work, but when introducing variables I kept running into issues with obscure error references. Finally I made it work by changing one variable at a time and each time running it.
 # Task verification
+![restconf-bash-proof](/assets/task_7/restconf-bash-proof.png)
 
 ---
 # Task name
