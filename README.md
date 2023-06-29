@@ -76,9 +76,9 @@ This task was relatively easy, I feel confident in Python. I performed all the c
 Only ran into some slight issues in formatting the JSON data, this took some time but was easily solved.
 
 # Task verification
-![task_5-proof-1](task_5-proof-1.png)
-![task_5-proof-1](task_5-proof-2.png)
-![task_5-proof-1](task_5-proof-3.png)
+![task-5-proof-1](task-5-proof-1.png)
+![task-5-proof-1](task-5-proof-2.png)
+![task-5-proof-1](task-5-proof-3.png)
 
 ---
 # Task name
